@@ -12,7 +12,7 @@ public class MysqlTrackerTest {
 
         logger.info("test log4j");
         //MysqlTrackerHBase tracker = new MysqlTrackerHBase("canal", "canal", "127.0.0.1", 3306, Long.valueOf(1234));
-        MysqlTracker tracker = new MysqlTracker("root", "zxm10", "10.45.157.91", 3307, Long.valueOf(1234));
+        MysqlTracker tracker = new MysqlTracker("canal", "canal", "127.0.0.1", 3306, Long.valueOf(1234));
         tracker.mainProc();
 
     }
